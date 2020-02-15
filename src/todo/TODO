@@ -1,0 +1,38 @@
+
+
+// find out if possible
+-"repair-based" BFS (re-using BFS field as cache structure and repair changed values on involved Fields)
+
+
+-undo/redo (for placing and loading)
+
+
+-- extended properties / statistics thingy on UI (so it doesn't get too crammed up)
+
+-better pruning of unreachable fields
+
+-improve prio checks ´n such
+
+-dynamic cache sizing?
+
+
+-GPU solver (needs completely new implementation. maybe int[] based.)
+->
+-array for pred (or just direction?)
+-another array for type (ice, WPs [maybe one per WP?]) -> read only
+
+
+-make it faster
+-make it faster
+-make it faster
+
+
+	// TODO
+	.
+	/**
+	 * initial mark for blocking to find exclusions
+	 * initial mark and other stuff at mazeDescriptor level, not Fields
+	 * separate solving from rest (separate solver for each maze)
+	 * class for solver strategy?
+	 * make double/tripple recurse more iterative
+	 */
